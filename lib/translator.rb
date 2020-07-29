@@ -21,7 +21,9 @@ def get_japanese_emoticon(path, western_emoticon)
       p emoticon_name[:japanese]
  end
  end
-
+end
+end
+end
 
 def get_english_meaning
   # code goes here
