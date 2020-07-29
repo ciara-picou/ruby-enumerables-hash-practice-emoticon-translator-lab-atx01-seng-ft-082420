@@ -24,7 +24,7 @@ def get_japanese_emoticon(path, western_emoticon)
       return language_hash.values[1]
      end
   end
-    else return "Sorry, that emoticon was not found"
+    return "Sorry, that emoticon was not found"
 end
 
 
