@@ -1,4 +1,4 @@
-
+require "pry"
 require "yaml"
 def load_library(path)
   # code goes here
@@ -18,6 +18,7 @@ def get_japanese_emoticon(path, western_emoticon)
   $emoticon_hash.map do |emoticon_name, language_hash|
 if emoticon_name[:english] == western_emoticon
       return emoticon_name[:japanese]
+      binding.pry
  end
  end
 end
