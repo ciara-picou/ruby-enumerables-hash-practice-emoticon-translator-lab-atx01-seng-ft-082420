@@ -26,6 +26,10 @@ end
 
 
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(path, japanese_emoticon)
+  load_library(path)
+  $emoticon_hash.map do |emoticon_name, language_hash|
+if language_hash.values == japanese_emoticon
+      return emoticon_name
+      else return "Sorry, that emoticon was not found"
 end
