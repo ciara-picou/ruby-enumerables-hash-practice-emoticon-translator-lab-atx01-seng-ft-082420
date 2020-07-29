@@ -14,7 +14,8 @@ emoticon_hash
   end
 
 def get_japanese_emoticon(path, western_emoticon)
-  load_library(path)binding.pry
+  load_library(path)
+  binding.pry
 end
 
 def get_english_meaning
