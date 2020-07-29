@@ -1,4 +1,4 @@
-require "pry"
+
 require "yaml"
 def load_library(path)
   # code goes here
@@ -15,7 +15,7 @@ $emoticon_hash
 
 def get_japanese_emoticon(path, western_emoticon)
   load_library(path)
-  binding.pry
+  
   
 end
 
