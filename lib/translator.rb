@@ -22,9 +22,9 @@ def get_japanese_emoticon(path, western_emoticon)
       if language_hash.values == western_emoticon
       binding.pry
       return language_hash.values[1]
-      else p "Sorry, that emoticon was not found"
      end
   end
+    else return "Sorry, that emoticon was not found"
 end
 
 
