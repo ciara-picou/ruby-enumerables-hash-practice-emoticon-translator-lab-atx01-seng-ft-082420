@@ -36,6 +36,6 @@ def get_english_meaning(path, japanese_emoticon)
       if language_hash.values == japanese_emoticon
       return emoticon_name
         end
+      end
       return "Sorry, that emoticon was not found"
-    end
   end
