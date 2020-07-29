@@ -12,10 +12,9 @@ emoticon_hash = {}
     end
 emoticon_hash
   end
-binding.pry
-def get_japanese_emoticon(path, western_emoticon)
-  load_library(path)
 
+def get_japanese_emoticon(path, western_emoticon)
+  load_library(path)binding.pry
 end
 
 def get_english_meaning
