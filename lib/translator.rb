@@ -33,3 +33,5 @@ if language_hash.values == japanese_emoticon
       return emoticon_name
       else return "Sorry, that emoticon was not found"
 end
+end
+end
