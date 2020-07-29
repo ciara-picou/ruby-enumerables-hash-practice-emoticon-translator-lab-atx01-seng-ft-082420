@@ -17,7 +17,7 @@ def get_japanese_emoticon(path, western_emoticon)
   load_library(path)
   $emoticon_hash.map do |emoticon_name, language_hash|
     binding.pry
-if  == western_emoticon
+if language_hash.values == western_emoticon
       return emoticon_name[:japanese]
       
  end
