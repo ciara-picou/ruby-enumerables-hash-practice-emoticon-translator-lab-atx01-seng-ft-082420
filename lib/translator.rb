@@ -18,6 +18,7 @@ def get_japanese_emoticon(path, western_emoticon)
   $emoticon_hash.map do |emoticon_name, language_hash|
 if language_hash.values == western_emoticon
       return language_hash.values[1]
+    else return
  end
  end
 end
