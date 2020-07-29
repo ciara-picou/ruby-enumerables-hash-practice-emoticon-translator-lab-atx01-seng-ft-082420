@@ -23,7 +23,7 @@ def get_japanese_emoticon(path, western_emoticon)
  end
 end
 end
-end
+
 
 def get_english_meaning
   # code goes here
