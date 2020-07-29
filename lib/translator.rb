@@ -22,7 +22,7 @@ def get_japanese_emoticon(path, western_emoticon)
       if language_hash.values == western_emoticon
       binding.pry
       return language_hash.values[1]
-      else return "Sorry, that emoticon was not found"
+      else p "Sorry, that emoticon was not found"
      end
   end
 end
@@ -35,7 +35,7 @@ def get_english_meaning(path, japanese_emoticon)
   $emoticon_hash.map do |emoticon_name, language_hash|
       if language_hash.values == japanese_emoticon
       return emoticon_name
-      else return "Sorry, that emoticon was not found"
+      else p "Sorry, that emoticon was not found"
     end
   end
 end
