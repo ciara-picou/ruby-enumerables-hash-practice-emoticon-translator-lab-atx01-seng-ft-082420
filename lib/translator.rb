@@ -13,8 +13,8 @@ emoticon_hash = {}
 emoticon_hash
   end
 
-def get_japanese_emoticon(western_emoticon)
-  load_library(lib/emoticons.yml)
+def get_japanese_emoticon(path, western_emoticon)
+  load_library(path)
   binding.pry
 end
 
